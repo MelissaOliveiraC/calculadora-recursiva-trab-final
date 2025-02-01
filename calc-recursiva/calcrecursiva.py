@@ -1,8 +1,10 @@
 def somar(a, b):
     return a + b
+    # return a + (-b if b < 0 else b)
 
 def subtrair(a, b):
     return a - b
+    # return a - (-b if b < 0 else b)
 
 def multiplicar(a, b):
     if b == 0:
